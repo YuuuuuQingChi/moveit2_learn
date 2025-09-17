@@ -1,0 +1,70 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6a3194625dc3c9428c4f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "kinova_gen3_6dof_robotiq_2f_85_moveit_config",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "kinova_gen3_6dof_robotiq_2f_85_moveit_config_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinova_gen3_6dof_robotiq_2f_85_moveit_config_uninstall-35818ea5015bd6b015bf.json",
+					"name" : "kinova_gen3_6dof_robotiq_2f_85_moveit_config_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-966b2d142b194a5875ea.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yuqingchi/Code/ws_moveit/build/kinova_gen3_6dof_robotiq_2f_85_moveit_config",
+		"source" : "/home/yuqingchi/Code/ws_moveit/src/ros2_kortex/kortex_moveit_config/kinova_gen3_6dof_robotiq_2f_85_moveit_config"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

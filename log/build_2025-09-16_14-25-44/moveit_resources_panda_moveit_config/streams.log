@@ -1,0 +1,70 @@
+[0.011s] Invoking command in '/home/yuqingchi/Code/ws_moveit/build/moveit_resources_panda_moveit_config': AMENT_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuqingchi/Code/ws_moveit/src/moveit_resources/panda_moveit_config -DCMAKE_INSTALL_PREFIX=/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config
+[0.111s] -- The C compiler identification is GNU 13.3.0
+[0.212s] -- The CXX compiler identification is GNU 13.3.0
+[0.252s] -- Detecting C compiler ABI info
+[0.408s] -- Detecting C compiler ABI info - done
+[0.427s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.428s] -- Detecting C compile features
+[0.429s] -- Detecting C compile features - done
+[0.446s] -- Detecting CXX compiler ABI info
+[0.620s] -- Detecting CXX compiler ABI info - done
+[0.640s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.641s] -- Detecting CXX compile features
+[0.642s] -- Detecting CXX compile features - done
+[0.646s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.885s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.181s] -- Configuring done (1.2s)
+[1.185s] -- Generating done (0.0s)
+[1.188s] -- Build files have been written to: /home/yuqingchi/Code/ws_moveit/build/moveit_resources_panda_moveit_config
+[1.198s] Invoked command in '/home/yuqingchi/Code/ws_moveit/build/moveit_resources_panda_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuqingchi/Code/ws_moveit/src/moveit_resources/panda_moveit_config -DCMAKE_INSTALL_PREFIX=/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config
+[1.199s] Invoking command in '/home/yuqingchi/Code/ws_moveit/build/moveit_resources_panda_moveit_config': AMENT_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuqingchi/Code/ws_moveit/build/moveit_resources_panda_moveit_config -- -j16 -l16
+[1.270s] Invoked command in '/home/yuqingchi/Code/ws_moveit/build/moveit_resources_panda_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuqingchi/Code/ws_moveit/build/moveit_resources_panda_moveit_config -- -j16 -l16
+[1.272s] Invoking command in '/home/yuqingchi/Code/ws_moveit/build/moveit_resources_panda_moveit_config': AMENT_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuqingchi/Code/ws_moveit/build/moveit_resources_panda_moveit_config
+[1.286s] -- Install configuration: ""
+[1.286s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/ament_index/resource_index/package_run_dependencies/moveit_resources_panda_moveit_config
+[1.287s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/ament_index/resource_index/parent_prefix_path/moveit_resources_panda_moveit_config
+[1.287s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/environment/ament_prefix_path.sh
+[1.287s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/environment/ament_prefix_path.dsv
+[1.288s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/environment/path.sh
+[1.288s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/environment/path.dsv
+[1.288s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/local_setup.bash
+[1.288s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/local_setup.sh
+[1.288s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/local_setup.zsh
+[1.288s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/local_setup.dsv
+[1.288s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.dsv
+[1.288s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/ament_index/resource_index/packages/moveit_resources_panda_moveit_config
+[1.289s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/cmake/moveit_resources_panda_moveit_configConfig.cmake
+[1.289s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/cmake/moveit_resources_panda_moveit_configConfig-version.cmake
+[1.289s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.xml
+[1.289s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch
+[1.289s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/moveit_empty.rviz
+[1.289s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/moveit_rviz.launch.py
+[1.289s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/moveit.rviz
+[1.290s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/demo.launch.py
+[1.290s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config
+[1.290s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/hard_joint_limits.yaml
+[1.290s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda_arm.srdf.xacro
+[1.290s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/hand.xacro
+[1.290s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda.urdf.xacro
+[1.290s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/ros2_controllers.yaml
+[1.290s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/stomp_planning.yaml
+[1.290s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/ompl_planning.yaml
+[1.291s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda_hand.ros2_control.xacro
+[1.291s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda.srdf
+[1.291s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/bio_ik_kinematics.yaml
+[1.291s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/gripper_moveit_controllers.yaml
+[1.291s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/kinematics.yaml
+[1.291s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/pilz_cartesian_limits.yaml
+[1.291s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/moveit_controllers.yaml
+[1.291s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/initial_positions.yaml
+[1.291s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/trac_ik_kinematics.yaml
+[1.291s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/joint_limits.yaml
+[1.292s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/pilz_industrial_motion_planner_planning.yaml
+[1.292s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/sensors_kinect_pointcloud.yaml
+[1.292s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda_arm_hand.srdf.xacro
+[1.292s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/chomp_planning.yaml
+[1.292s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda.ros2_control.xacro
+[1.292s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda_arm.xacro
+[1.292s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/sensors_kinect_depthmap.yaml
+[1.292s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/.setup_assistant
+[1.295s] Invoked command in '/home/yuqingchi/Code/ws_moveit/build/moveit_resources_panda_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuqingchi/Code/ws_moveit/build/moveit_resources_panda_moveit_config

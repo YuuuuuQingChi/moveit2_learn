@@ -1,0 +1,190 @@
+[0.042s] Invoking command in '/home/yuqingchi/Code/ws_moveit/build/moveit_kinematics': AMENT_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_ros_planning:/home/yuqingchi/Code/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/yuqingchi/Code/ws_moveit/install/moveit_core:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_pr2_description:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_description:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_fanuc_description:/home/yuqingchi/Code/ws_moveit/install/moveit_msgs:/home/yuqingchi/Code/ws_moveit/install/moveit_configs_utils:/home/yuqingchi/Code/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_ros_planning:/home/yuqingchi/Code/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/yuqingchi/Code/ws_moveit/install/moveit_core:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_pr2_description:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_description:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_fanuc_description:/home/yuqingchi/Code/ws_moveit/install/moveit_msgs:/home/yuqingchi/Code/ws_moveit/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_ros_planning/lib:/home/yuqingchi/Code/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/yuqingchi/Code/ws_moveit/install/moveit_core/lib:/home/yuqingchi/Code/ws_moveit/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/yuqingchi/Code/ws_moveit/install/moveit_msgs/lib/python3.12/site-packages:/home/yuqingchi/Code/ws_moveit/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/yuqingchi/Code/ws_moveit/src/moveit2/moveit_kinematics -DCMAKE_INSTALL_PREFIX=/home/yuqingchi/Code/ws_moveit/install/moveit_kinematics
+[0.160s] -- The CXX compiler identification is GNU 13.3.0
+[0.190s] -- Detecting CXX compiler ABI info
+[0.382s] -- Detecting CXX compiler ABI info - done
+[0.397s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.397s] -- Detecting CXX compile features
+[0.398s] -- Detecting CXX compile features - done
+[0.401s] -- Found moveit_common: 2.14.1 (/home/yuqingchi/Code/ws_moveit/install/moveit_common/share/moveit_common/cmake)
+[0.405s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.653s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.969s] [0mmoveit_kinematics: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0.988s] -- Found class_loader: 2.7.0 (/opt/ros/jazzy/share/class_loader/cmake)
+[1.031s] -- Found generate_parameter_library: 0.5.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[1.038s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.092s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.115s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.140s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.159s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.246s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.249s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.370s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.412s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.462s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.614s] -- Found rclcpp_lifecycle: 28.1.11 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.650s] -- Found kdl_parser: 2.11.0 (/opt/ros/jazzy/share/kdl_parser/cmake)
+[1.659s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.660s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.661s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.664s] -- Found moveit_core: 2.14.1 (/home/yuqingchi/Code/ws_moveit/install/moveit_core/share/moveit_core/cmake)
+[1.922s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.026s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[2.609s] -- Found moveit_ros_planning: 2.14.1 (/home/yuqingchi/Code/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[2.615s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[2.672s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: program_options system 
+[2.725s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[2.728s] -- Found ros_testing: 0.6.0 (/opt/ros/jazzy/share/ros_testing/cmake)
+[2.730s] -- Found launch_testing_ament_cmake: 3.4.6 (/opt/ros/jazzy/share/launch_testing_ament_cmake/cmake)
+[2.732s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.981s] -- Found PythonExtra: /usr/bin/python3  
+[2.983s] -- Found moveit_resources_fanuc_description: 3.1.1 (/home/yuqingchi/Code/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/cmake)
+[2.985s] -- Found moveit_resources_fanuc_moveit_config: 3.1.1 (/home/yuqingchi/Code/ws_moveit/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/cmake)
+[2.987s] -- Found moveit_resources_panda_description: 3.1.1 (/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake)
+[2.989s] -- Found moveit_resources_panda_moveit_config: 3.1.1 (/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/cmake)
+[2.995s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.078s] -- The C compiler identification is GNU 13.3.0
+[3.104s] -- Detecting C compiler ABI info
+[3.300s] -- Detecting C compiler ABI info - done
+[3.316s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.317s] -- Detecting C compile features
+[3.317s] -- Detecting C compile features - done
+[3.322s] -- Found Threads: TRUE  
+[3.343s] -- Configuring done (3.3s)
+[3.486s] -- Generating done (0.1s)
+[3.509s] -- Build files have been written to: /home/yuqingchi/Code/ws_moveit/build/moveit_kinematics
+[3.536s] Invoked command in '/home/yuqingchi/Code/ws_moveit/build/moveit_kinematics' returned '0': AMENT_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_ros_planning:/home/yuqingchi/Code/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/yuqingchi/Code/ws_moveit/install/moveit_core:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_pr2_description:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_description:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_fanuc_description:/home/yuqingchi/Code/ws_moveit/install/moveit_msgs:/home/yuqingchi/Code/ws_moveit/install/moveit_configs_utils:/home/yuqingchi/Code/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_ros_planning:/home/yuqingchi/Code/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/yuqingchi/Code/ws_moveit/install/moveit_core:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_pr2_description:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_description:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_fanuc_description:/home/yuqingchi/Code/ws_moveit/install/moveit_msgs:/home/yuqingchi/Code/ws_moveit/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_ros_planning/lib:/home/yuqingchi/Code/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/yuqingchi/Code/ws_moveit/install/moveit_core/lib:/home/yuqingchi/Code/ws_moveit/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/yuqingchi/Code/ws_moveit/install/moveit_msgs/lib/python3.12/site-packages:/home/yuqingchi/Code/ws_moveit/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/yuqingchi/Code/ws_moveit/src/moveit2/moveit_kinematics -DCMAKE_INSTALL_PREFIX=/home/yuqingchi/Code/ws_moveit/install/moveit_kinematics
+[3.537s] Invoking command in '/home/yuqingchi/Code/ws_moveit/build/moveit_kinematics': AMENT_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_ros_planning:/home/yuqingchi/Code/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/yuqingchi/Code/ws_moveit/install/moveit_core:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_pr2_description:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_description:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_fanuc_description:/home/yuqingchi/Code/ws_moveit/install/moveit_msgs:/home/yuqingchi/Code/ws_moveit/install/moveit_configs_utils:/home/yuqingchi/Code/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_ros_planning:/home/yuqingchi/Code/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/yuqingchi/Code/ws_moveit/install/moveit_core:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_pr2_description:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_description:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_fanuc_description:/home/yuqingchi/Code/ws_moveit/install/moveit_msgs:/home/yuqingchi/Code/ws_moveit/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_ros_planning/lib:/home/yuqingchi/Code/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/yuqingchi/Code/ws_moveit/install/moveit_core/lib:/home/yuqingchi/Code/ws_moveit/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/yuqingchi/Code/ws_moveit/install/moveit_msgs/lib/python3.12/site-packages:/home/yuqingchi/Code/ws_moveit/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yuqingchi/Code/ws_moveit/build/moveit_kinematics -- -j16 -l16
+[3.630s] [ 21%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.630s] [ 21%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.630s] [ 21%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/yuqingchi/Code/ws_moveit/build/moveit_kinematics/srv_kinematics_plugin/include/moveit_kinematics/srv_kinematics_parameters.hpp /home/yuqingchi/Code/ws_moveit/src/moveit2/moveit_kinematics/srv_kinematics_plugin/src/srv_kinematics_parameters.yaml `[0m
+[3.631s] [ 21%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/yuqingchi/Code/ws_moveit/build/moveit_kinematics/kdl_kinematics_plugin/include/moveit_kinematics/kdl_kinematics_parameters.hpp /home/yuqingchi/Code/ws_moveit/src/moveit2/moveit_kinematics/kdl_kinematics_plugin/src/kdl_kinematics_parameters.yaml `[0m
+[3.631s] [ 21%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/yuqingchi/Code/ws_moveit/build/moveit_kinematics/cached_ik_kinematics_plugin/include/moveit_kinematics/cached_ik_kinematics_parameters.hpp /home/yuqingchi/Code/ws_moveit/src/moveit2/moveit_kinematics/cached_ik_kinematics_plugin/include/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_parameters.yaml `[0m
+[3.631s] [ 26%] [32mBuilding CXX object test/CMakeFiles/benchmark_ik.dir/benchmark_ik.cpp.o[0m
+[4.277s] [ 30%] [34m[1mCreating deprecated header file /home/yuqingchi/Code/ws_moveit/build/moveit_kinematics/cached_ik_kinematics_plugin/include/cached_ik_kinematics_parameters.hpp[0m
+[4.292s] [ 34%] [34m[1mCreating deprecated header file /home/yuqingchi/Code/ws_moveit/build/moveit_kinematics/srv_kinematics_plugin/include/srv_kinematics_parameters.hpp[0m
+[4.319s] [ 34%] Built target cached_ik_kinematics_parameters
+[4.333s] [ 34%] Built target srv_kinematics_parameters
+[4.383s] [ 39%] [32mBuilding CXX object srv_kinematics_plugin/CMakeFiles/moveit_srv_kinematics_plugin.dir/src/srv_kinematics_plugin.cpp.o[0m
+[4.425s] [ 43%] [34m[1mCreating deprecated header file /home/yuqingchi/Code/ws_moveit/build/moveit_kinematics/kdl_kinematics_plugin/include/kdl_kinematics_parameters.hpp[0m
+[4.469s] [ 43%] Built target kdl_kinematics_parameters
+[4.512s] [ 47%] [32mBuilding CXX object kdl_kinematics_plugin/CMakeFiles/moveit_kdl_kinematics_plugin.dir/src/chainiksolver_vel_mimic_svd.cpp.o[0m
+[4.516s] [ 52%] [32mBuilding CXX object kdl_kinematics_plugin/CMakeFiles/moveit_kdl_kinematics_plugin.dir/src/kdl_kinematics_plugin.cpp.o[0m
+[4.517s] [ 56%] [32mBuilding CXX object cached_ik_kinematics_plugin/CMakeFiles/moveit_cached_ik_kinematics_base.dir/src/ik_cache.cpp.o[0m
+[4.628s] [ 60%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.750s] [ 60%] Built target gtest_main
+[12.684s] [ 65%] [32m[1mLinking CXX static library libgtest.a[0m
+[12.805s] [ 65%] Built target gtest
+[13.964s] [ 69%] [32m[1mLinking CXX shared library libmoveit_cached_ik_kinematics_base.so[0m
+[13.968s] [ 73%] [32m[1mLinking CXX shared library libmoveit_srv_kinematics_plugin.so[0m
+[14.249s] [ 73%] Built target moveit_cached_ik_kinematics_base
+[14.424s] [ 73%] Built target moveit_srv_kinematics_plugin
+[14.523s] [ 78%] [32m[1mLinking CXX shared library libmoveit_kdl_kinematics_plugin.so[0m
+[14.800s] [ 78%] Built target moveit_kdl_kinematics_plugin
+[14.847s] [ 86%] [32mBuilding CXX object test/CMakeFiles/test_kinematics_plugin.dir/test_kinematics_plugin.cpp.o[0m
+[14.848s] [ 86%] [32mBuilding CXX object cached_ik_kinematics_plugin/CMakeFiles/moveit_cached_ik_kinematics_plugin.dir/src/cached_ik_kinematics_plugin.cpp.o[0m
+[14.910s] [ 91%] [32m[1mLinking CXX executable benchmark_ik[0m
+[15.332s] [ 91%] Built target benchmark_ik
+[23.325s] [ 95%] [32m[1mLinking CXX shared library libmoveit_cached_ik_kinematics_plugin.so[0m
+[23.639s] [ 95%] Built target moveit_cached_ik_kinematics_plugin
+[34.906s] [100%] [32m[1mLinking CXX executable test_kinematics_plugin[0m
+[35.450s] [100%] Built target test_kinematics_plugin
+[35.473s] Invoked command in '/home/yuqingchi/Code/ws_moveit/build/moveit_kinematics' returned '0': AMENT_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_ros_planning:/home/yuqingchi/Code/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/yuqingchi/Code/ws_moveit/install/moveit_core:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_pr2_description:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_description:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_fanuc_description:/home/yuqingchi/Code/ws_moveit/install/moveit_msgs:/home/yuqingchi/Code/ws_moveit/install/moveit_configs_utils:/home/yuqingchi/Code/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_ros_planning:/home/yuqingchi/Code/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/yuqingchi/Code/ws_moveit/install/moveit_core:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_pr2_description:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_description:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_fanuc_description:/home/yuqingchi/Code/ws_moveit/install/moveit_msgs:/home/yuqingchi/Code/ws_moveit/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_ros_planning/lib:/home/yuqingchi/Code/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/yuqingchi/Code/ws_moveit/install/moveit_core/lib:/home/yuqingchi/Code/ws_moveit/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/yuqingchi/Code/ws_moveit/install/moveit_msgs/lib/python3.12/site-packages:/home/yuqingchi/Code/ws_moveit/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yuqingchi/Code/ws_moveit/build/moveit_kinematics -- -j16 -l16
+[35.476s] Invoking command in '/home/yuqingchi/Code/ws_moveit/build/moveit_kinematics': AMENT_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_ros_planning:/home/yuqingchi/Code/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/yuqingchi/Code/ws_moveit/install/moveit_core:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_pr2_description:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_description:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_fanuc_description:/home/yuqingchi/Code/ws_moveit/install/moveit_msgs:/home/yuqingchi/Code/ws_moveit/install/moveit_configs_utils:/home/yuqingchi/Code/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_ros_planning:/home/yuqingchi/Code/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/yuqingchi/Code/ws_moveit/install/moveit_core:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_pr2_description:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_description:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_fanuc_description:/home/yuqingchi/Code/ws_moveit/install/moveit_msgs:/home/yuqingchi/Code/ws_moveit/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_ros_planning/lib:/home/yuqingchi/Code/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/yuqingchi/Code/ws_moveit/install/moveit_core/lib:/home/yuqingchi/Code/ws_moveit/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/yuqingchi/Code/ws_moveit/install/moveit_msgs/lib/python3.12/site-packages:/home/yuqingchi/Code/ws_moveit/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yuqingchi/Code/ws_moveit/build/moveit_kinematics
+[35.492s] -- Install configuration: "Release"
+[35.492s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/kdl_kinematics_plugin_description.xml
+[35.492s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/srv_kinematics_plugin_description.xml
+[35.492s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/cached_ik_kinematics_plugin_description.xml
+[35.493s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics
+[35.493s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/cached_ik_kinematics_parameters.hpp
+[35.493s] -- Up-to-date: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics
+[35.494s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit
+[35.494s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin
+[35.494s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_parameters.yaml
+[35.494s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_plugin-inl.h
+[35.494s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_plugin.hpp
+[35.494s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/detail
+[35.494s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/detail/GreedyKCenters.hpp
+[35.495s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/detail/NearestNeighborsGNAT.hpp
+[35.495s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/detail/NearestNeighborsGNAT.h
+[35.495s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/detail/NearestNeighbors.hpp
+[35.495s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/detail/GreedyKCenters.h
+[35.495s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/detail/NearestNeighbors.h
+[35.496s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_plugin-inl.hpp
+[35.496s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_plugin.h
+[35.496s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/launch
+[35.496s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/launch/measure_ik_call_cost.launch
+[35.496s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/lib/moveit_kinematics/auto_create_ikfast_moveit_plugin.sh
+[35.496s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/lib/moveit_kinematics/create_ikfast_moveit_plugin.py
+[35.497s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/lib/moveit_kinematics/round_collada_numbers.py
+[35.497s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates
+[35.497s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates/ikfast_kinematics_parameters.yaml
+[35.497s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates/CMakeLists.txt
+[35.497s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates/ikfast61_moveit_plugin_template.cpp
+[35.497s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates/ikfast.h
+[35.498s] -- Up-to-date: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics
+[35.498s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/kdl_kinematics_parameters.hpp
+[35.498s] -- Up-to-date: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics
+[35.499s] -- Up-to-date: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit
+[35.499s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/kdl_kinematics_plugin
+[35.499s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/kdl_kinematics_plugin/kdl_kinematics_plugin.h
+[35.499s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/kdl_kinematics_plugin/joint_mimic.h
+[35.499s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/kdl_kinematics_plugin/chainiksolver_vel_mimic_svd.h
+[35.500s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/kdl_kinematics_plugin/kdl_kinematics_plugin.hpp
+[35.500s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/kdl_kinematics_plugin/joint_mimic.hpp
+[35.500s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/kdl_kinematics_plugin/chainiksolver_vel_mimic_svd.hpp
+[35.500s] -- Up-to-date: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics
+[35.500s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/srv_kinematics_parameters.hpp
+[35.500s] -- Up-to-date: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics
+[35.501s] -- Up-to-date: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit
+[35.501s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/srv_kinematics_plugin
+[35.501s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/srv_kinematics_plugin/srv_kinematics_plugin.hpp
+[35.501s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/include/moveit_kinematics/moveit/srv_kinematics_plugin/srv_kinematics_plugin.h
+[35.502s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/config
+[35.502s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/config/panda-kdl-test.yaml
+[35.502s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/config/panda-kdl-singular-test.yaml
+[35.502s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/config/fanuc-kdl-singular-test.yaml
+[35.503s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/config/fanuc-kdl-test.yaml
+[35.503s] -- Up-to-date: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/launch
+[35.503s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/launch/panda-kdl-singular.test.py
+[35.503s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/launch/panda-kdl.test.py
+[35.503s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/launch/fanuc-kdl.test.py
+[35.503s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/launch/fanuc-kdl-singular.test.py
+[35.504s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/lib/moveit_kinematics/benchmark_ik
+[35.504s] -- Set non-toolchain portion of runtime path of "/home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/lib/moveit_kinematics/benchmark_ik" to ""
+[35.504s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/lib/moveit_kinematics/test_kinematics_plugin
+[35.505s] -- Set non-toolchain portion of runtime path of "/home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/lib/moveit_kinematics/test_kinematics_plugin" to ""
+[35.505s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_base.so.2.14.1
+[35.506s] -- Set non-toolchain portion of runtime path of "/home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_base.so.2.14.1" to ""
+[35.506s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_base.so
+[35.506s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_plugin.so.2.14.1
+[35.507s] -- Set non-toolchain portion of runtime path of "/home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_plugin.so.2.14.1" to ""
+[35.507s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_plugin.so
+[35.507s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/lib/libmoveit_kdl_kinematics_plugin.so
+[35.508s] -- Set non-toolchain portion of runtime path of "/home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/lib/libmoveit_kdl_kinematics_plugin.so" to ""
+[35.508s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/lib/libmoveit_srv_kinematics_plugin.so.2.14.1
+[35.509s] -- Set non-toolchain portion of runtime path of "/home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/lib/libmoveit_srv_kinematics_plugin.so.2.14.1" to ""
+[35.509s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/lib/libmoveit_srv_kinematics_plugin.so
+[35.509s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/environment/library_path.sh
+[35.509s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/environment/library_path.dsv
+[35.510s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/ament_index/resource_index/package_run_dependencies/moveit_kinematics
+[35.510s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/ament_index/resource_index/parent_prefix_path/moveit_kinematics
+[35.510s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/environment/ament_prefix_path.sh
+[35.510s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/environment/ament_prefix_path.dsv
+[35.510s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/environment/path.sh
+[35.510s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/environment/path.dsv
+[35.511s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/local_setup.bash
+[35.511s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/local_setup.sh
+[35.511s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/local_setup.zsh
+[35.511s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/local_setup.dsv
+[35.511s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/package.dsv
+[35.511s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/ament_index/resource_index/packages/moveit_kinematics
+[35.512s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_kinematics
+[35.512s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/cmake/moveit_kinematicsTargetsExport.cmake
+[35.512s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/cmake/moveit_kinematicsTargetsExport-release.cmake
+[35.512s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/cmake/ConfigExtras.cmake
+[35.512s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/cmake/ament_cmake_export_targets-extras.cmake
+[35.512s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/cmake/ament_cmake_export_dependencies-extras.cmake
+[35.512s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/cmake/moveit_kinematicsConfig.cmake
+[35.513s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/cmake/moveit_kinematicsConfig-version.cmake
+[35.513s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/moveit_kinematics/share/moveit_kinematics/package.xml
+[35.515s] Invoked command in '/home/yuqingchi/Code/ws_moveit/build/moveit_kinematics' returned '0': AMENT_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_ros_planning:/home/yuqingchi/Code/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/yuqingchi/Code/ws_moveit/install/moveit_core:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_pr2_description:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_description:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_fanuc_description:/home/yuqingchi/Code/ws_moveit/install/moveit_msgs:/home/yuqingchi/Code/ws_moveit/install/moveit_configs_utils:/home/yuqingchi/Code/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_ros_planning:/home/yuqingchi/Code/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/yuqingchi/Code/ws_moveit/install/moveit_core:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_moveit_config:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_pr2_description:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_panda_description:/home/yuqingchi/Code/ws_moveit/install/moveit_resources_fanuc_description:/home/yuqingchi/Code/ws_moveit/install/moveit_msgs:/home/yuqingchi/Code/ws_moveit/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_ros_planning/lib:/home/yuqingchi/Code/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/yuqingchi/Code/ws_moveit/install/moveit_core/lib:/home/yuqingchi/Code/ws_moveit/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/yuqingchi/Code/ws_moveit/install/moveit_msgs/lib/python3.12/site-packages:/home/yuqingchi/Code/ws_moveit/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yuqingchi/Code/ws_moveit/build/moveit_kinematics

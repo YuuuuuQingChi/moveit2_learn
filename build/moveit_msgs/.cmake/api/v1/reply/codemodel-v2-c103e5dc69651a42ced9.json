@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a7c004a28dc7e428cbc5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "moveit_msgs__py",
+					"jsonFile" : "directory-moveit_msgs__py-85746309d4bf5f99d3d0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/yuqingchi/Code/ws_moveit/build/moveit_msgs/moveit_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "moveit_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_moveit_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_moveit_msgs_egg-2f50cff76afa264916a7.json",
+					"name" : "ament_cmake_python_build_moveit_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_moveit_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_moveit_msgs-ba7722215355a21e9192.json",
+					"name" : "ament_cmake_python_copy_moveit_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_msgs-4d4d7a1ffed81ce91679.json",
+					"name" : "moveit_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_msgs__cpp-9f1e744619035aa92924.json",
+					"name" : "moveit_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "moveit_msgs__py::@0ba2befdb8cc23766da7",
+					"jsonFile" : "target-moveit_msgs__py-50a8751d58c938537c78.json",
+					"name" : "moveit_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_msgs__rosidl_generator_c-b4286234229b5c5aa55f.json",
+					"name" : "moveit_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_msgs__rosidl_generator_py-7f667c79b777a60ccb1a.json",
+					"name" : "moveit_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_msgs__rosidl_generator_type_description-cbe2fbadf61daf5dc46c.json",
+					"name" : "moveit_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_msgs__rosidl_typesupport_c-9a6f9508e6d5d3135695.json",
+					"name" : "moveit_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_msgs__rosidl_typesupport_cpp-8e063483a346e5cf2032.json",
+					"name" : "moveit_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_msgs__rosidl_typesupport_fastrtps_c-56e8a7da721aee822630.json",
+					"name" : "moveit_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_msgs__rosidl_typesupport_fastrtps_cpp-097a5277b7f7027155a1.json",
+					"name" : "moveit_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_msgs__rosidl_typesupport_introspection_c-1015c07c7cd6b726dd25.json",
+					"name" : "moveit_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_msgs__rosidl_typesupport_introspection_cpp-50156d1f3550560f8afe.json",
+					"name" : "moveit_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_msgs_s__rosidl_typesupport_c-2082b695712b38b635e7.json",
+					"name" : "moveit_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_msgs_s__rosidl_typesupport_fastrtps_c-d22b5f140c11c860cade.json",
+					"name" : "moveit_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_msgs_s__rosidl_typesupport_introspection_c-d49b63274855daeb935c.json",
+					"name" : "moveit_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_msgs_uninstall-ac73cfca6623d2c4775c.json",
+					"name" : "moveit_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-465052b20be154dd122a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yuqingchi/Code/ws_moveit/build/moveit_msgs",
+		"source" : "/home/yuqingchi/Code/ws_moveit/src/moveit_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

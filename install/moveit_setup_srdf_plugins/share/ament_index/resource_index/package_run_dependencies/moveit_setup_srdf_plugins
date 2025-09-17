@@ -1,0 +1,1 @@
+moveit_setup_framework;pluginlib;ament_cmake_gtest;moveit_resources_fanuc_description

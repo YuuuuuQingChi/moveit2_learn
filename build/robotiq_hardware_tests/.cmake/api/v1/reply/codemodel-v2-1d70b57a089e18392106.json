@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0a6ae956663ca9284346.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "robotiq_hardware_tests",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "full_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-full_test-21daad0295988f80df86.json",
+					"name" : "full_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_hardware_tests_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_hardware_tests_uninstall-e288d2bf0ca9d54a5338.json",
+					"name" : "robotiq_hardware_tests_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2f7312412ddb118d9f5a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yuqingchi/Code/ws_moveit/build/robotiq_hardware_tests",
+		"source" : "/home/yuqingchi/Code/ws_moveit/src/ros2_robotiq_gripper/robotiq_hardware_tests"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

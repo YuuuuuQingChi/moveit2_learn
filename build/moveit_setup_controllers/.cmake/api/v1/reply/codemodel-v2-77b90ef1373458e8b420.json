@@ -1,0 +1,211 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-ad3d215d768c89cea0b7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-Release-0908a8c91ddba5d6c989.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/jazzy/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "moveit_setup_controllers",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-Release-dc5469920a3119406193.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest_autogen::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_autogen-Release-81cb5f1418274ec607a6.json",
+					"name" : "gtest_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest_autogen_timestamp_deps::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_autogen_timestamp_deps-Release-0b1f52726eb1beec2a1e.json",
+					"name" : "gtest_autogen_timestamp_deps",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-Release-a4e02224726c121e4d17.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest_main_autogen::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main_autogen-Release-c43b3cff024543db7f20.json",
+					"name" : "gtest_main_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest_main_autogen_timestamp_deps::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main_autogen_timestamp_deps-Release-05a84c965b28ecc21999.json",
+					"name" : "gtest_main_autogen_timestamp_deps",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_controllers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_controllers-Release-e5e2ae310ee0185fb13e.json",
+					"name" : "moveit_setup_controllers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_controllers_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_controllers_autogen-Release-aca11cc47eac475721b5.json",
+					"name" : "moveit_setup_controllers_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_controllers_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_controllers_autogen_timestamp_deps-Release-8630a55e455545114700.json",
+					"name" : "moveit_setup_controllers_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_controllers_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_controllers_uninstall-Release-412c775cbdef775bf706.json",
+					"name" : "moveit_setup_controllers_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_controllers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_controllers-Release-c74d43ba032a6cdbd04d.json",
+					"name" : "test_controllers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_controllers_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_controllers_autogen-Release-4b79c75c6d47ca8ee805.json",
+					"name" : "test_controllers_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_controllers_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_controllers_autogen_timestamp_deps-Release-89332da2269a37d7e7bf.json",
+					"name" : "test_controllers_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-e92398490ba978c55d0d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yuqingchi/Code/ws_moveit/build/moveit_setup_controllers",
+		"source" : "/home/yuqingchi/Code/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_controllers"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

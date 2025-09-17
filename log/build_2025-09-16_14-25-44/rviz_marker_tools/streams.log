@@ -1,0 +1,67 @@
+[0.012s] Invoking command in '/home/yuqingchi/Code/ws_moveit/build/rviz_marker_tools': AMENT_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuqingchi/Code/ws_moveit/src/moveit_task_constructor/rviz_marker_tools -DCMAKE_INSTALL_PREFIX=/home/yuqingchi/Code/ws_moveit/install/rviz_marker_tools
+[0.103s] -- The C compiler identification is GNU 13.3.0
+[0.192s] -- The CXX compiler identification is GNU 13.3.0
+[0.220s] -- Detecting C compiler ABI info
+[0.361s] -- Detecting C compiler ABI info - done
+[0.380s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.381s] -- Detecting C compile features
+[0.381s] -- Detecting C compile features - done
+[0.397s] -- Detecting CXX compiler ABI info
+[0.549s] -- Detecting CXX compiler ABI info - done
+[0.567s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.567s] -- Detecting CXX compile features
+[0.568s] -- Detecting CXX compile features - done
+[0.572s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.795s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.951s] -- Found moveit_common: 2.14.1 (/home/yuqingchi/Code/ws_moveit/install/moveit_common/share/moveit_common/cmake)
+[1.094s] [0mrviz_marker_tools: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[1.097s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.166s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.186s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.211s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.238s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.337s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.340s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.452s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.489s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.530s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.659s] -- Found tf2_eigen: 0.36.14 (/opt/ros/jazzy/share/tf2_eigen/cmake)
+[1.865s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[1.930s] -- Configuring done (1.9s)
+[1.944s] -- Generating done (0.0s)
+[1.948s] -- Build files have been written to: /home/yuqingchi/Code/ws_moveit/build/rviz_marker_tools
+[1.964s] Invoked command in '/home/yuqingchi/Code/ws_moveit/build/rviz_marker_tools' returned '0': AMENT_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuqingchi/Code/ws_moveit/src/moveit_task_constructor/rviz_marker_tools -DCMAKE_INSTALL_PREFIX=/home/yuqingchi/Code/ws_moveit/install/rviz_marker_tools
+[1.965s] Invoking command in '/home/yuqingchi/Code/ws_moveit/build/rviz_marker_tools': AMENT_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuqingchi/Code/ws_moveit/build/rviz_marker_tools -- -j16 -l16
+[2.054s] [ 50%] [32mBuilding CXX object CMakeFiles/rviz_marker_tools.dir/src/marker_creation.cpp.o[0m
+[7.699s] [100%] [32m[1mLinking CXX shared library librviz_marker_tools.so[0m
+[7.899s] [100%] Built target rviz_marker_tools
+[7.919s] Invoked command in '/home/yuqingchi/Code/ws_moveit/build/rviz_marker_tools' returned '0': AMENT_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuqingchi/Code/ws_moveit/build/rviz_marker_tools -- -j16 -l16
+[7.922s] Invoking command in '/home/yuqingchi/Code/ws_moveit/build/rviz_marker_tools': AMENT_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuqingchi/Code/ws_moveit/build/rviz_marker_tools
+[7.935s] -- Install configuration: "Release"
+[7.936s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/rviz_marker_tools/include
+[7.936s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/rviz_marker_tools/include/rviz_marker_tools
+[7.936s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/rviz_marker_tools/include/rviz_marker_tools/marker_creation.h
+[7.936s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/rviz_marker_tools/lib/librviz_marker_tools.so
+[7.937s] -- Set non-toolchain portion of runtime path of "/home/yuqingchi/Code/ws_moveit/install/rviz_marker_tools/lib/librviz_marker_tools.so" to ""
+[7.937s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/environment/library_path.sh
+[7.937s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/environment/library_path.dsv
+[7.938s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/rviz_marker_tools/share/ament_index/resource_index/package_run_dependencies/rviz_marker_tools
+[7.938s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/rviz_marker_tools/share/ament_index/resource_index/parent_prefix_path/rviz_marker_tools
+[7.938s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/environment/ament_prefix_path.sh
+[7.938s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/environment/ament_prefix_path.dsv
+[7.938s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/environment/path.sh
+[7.938s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/environment/path.dsv
+[7.939s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.bash
+[7.939s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.sh
+[7.939s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.zsh
+[7.939s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.dsv
+[7.939s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/package.dsv
+[7.940s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/rviz_marker_tools/share/ament_index/resource_index/packages/rviz_marker_tools
+[7.940s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsTargetsExport.cmake
+[7.940s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsTargetsExport-release.cmake
+[7.940s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/cmake/ament_cmake_export_targets-extras.cmake
+[7.940s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.941s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsConfig.cmake
+[7.941s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsConfig-version.cmake
+[7.941s] -- Installing: /home/yuqingchi/Code/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/package.xml
+[7.945s] Invoked command in '/home/yuqingchi/Code/ws_moveit/build/rviz_marker_tools' returned '0': AMENT_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yuqingchi/Code/ws_moveit/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuqingchi/Code/ws_moveit/build/rviz_marker_tools

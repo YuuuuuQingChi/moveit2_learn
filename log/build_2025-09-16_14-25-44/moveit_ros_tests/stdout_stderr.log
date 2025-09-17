@@ -1,0 +1,47 @@
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found moveit_common: 2.14.1 (/home/yuqingchi/Code/ws_moveit/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0mmoveit_ros_tests: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+-- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+-- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ros_testing: 0.6.0 (/opt/ros/jazzy/share/ros_testing/cmake)
+-- Found launch_testing_ament_cmake: 3.4.6 (/opt/ros/jazzy/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- The C compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done (2.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/yuqingchi/Code/ws_moveit/build/moveit_ros_tests
+[ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 50%] Built target gtest_main
+[ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 66%] Built target gtest
+[ 83%] [32mBuilding CXX object CMakeFiles/move_group_api_test.dir/src/move_group_api_test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable move_group_api_test[0m
+[100%] Built target move_group_api_test
