@@ -1,3 +1,10 @@
+# ROS2 构建目录
 build/
 install/
 log/
+
+# 其他通用忽略项
+*.pyc
+__pycache__/
+*.swp
+*.bak
