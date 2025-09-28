@@ -12,6 +12,9 @@ find_package(rclcpp REQUIRED)
 find_package(moveit_visual_tools REQUIRED)
 
 add_executable(hello_moveit src/hello_moveit.cpp)
+add_executable(plan src/Obstacle_avoidance_planning.cpp)
+add_executable(deep src/deeply_learn.cpp)
+
 target_include_directories(hello_moveit PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include/${PROJECT_NAME}>)
@@ -23,7 +26,29 @@ ament_target_dependencies(
   "moveit_visual_tools"
 )
 
-install(TARGETS hello_moveit
+target_include_directories(plan PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include/${PROJECT_NAME}>)
+target_compile_features(plan PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+ament_target_dependencies(
+  plan
+  "moveit_ros_planning_interface"
+  "rclcpp"
+  "moveit_visual_tools"
+)
+
+target_include_directories(deep PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include/${PROJECT_NAME}>)
+target_compile_features(deep PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+ament_target_dependencies(
+  deep
+  "moveit_ros_planning_interface"
+  "rclcpp"
+  "moveit_visual_tools"
+)
+
+install(TARGETS hello_moveit plan
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
