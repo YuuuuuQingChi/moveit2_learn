@@ -61,3 +61,12 @@ move()函数。请注意，我们之前设置的位姿目标仍然有效，因�
       move_group.getRobotModel());
 ```
 指定好你的node，还有PLANNING_GROUP的名字，还有topic，和module
+
+## deleteAllMarkers
+使用此函数，可以清除原有的markers
+
+## loadRemoteControl
+
+用于连接远程的控制
+这个很重要
+

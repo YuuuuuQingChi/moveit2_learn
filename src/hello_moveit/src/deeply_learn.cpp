@@ -41,6 +41,7 @@ int main(int argc, char **argv) {
   moveit_visual_tools::MoveItVisualTools visual_tools(
       move_group_node, PLANNING_GROUP, "move_group_tutorial",
       move_group.getRobotModel());
+  moveit::planning_interface::MoveGroupInterface::Plan my_plan;
   // RCLCPP_INFO(LOGGER, "Planning_Frame %s",
   //             move_group.getPlanningFrame().c_str());
   // auto joint_names = move_group.getJointNames();
@@ -52,7 +53,7 @@ int main(int argc, char **argv) {
   // target_pose1.position.z = 0.5;
   // move_group.setPoseTarget(target_pose1);
 
-  moveit::planning_interface::MoveGroupInterface::Plan my_plan;
+  
   // bool is_success =
   //     move_group.plan(my_plan) == moveit::core::MoveItErrorCode::SUCCESS;
   // RCLCPP_INFO(LOGGER, "%s", is_success ? "ok" : "failed");
