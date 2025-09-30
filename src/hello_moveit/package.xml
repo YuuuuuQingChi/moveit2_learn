@@ -11,7 +11,7 @@
 
   <depend>moveit_ros_planning_interface</depend>
   <depend>moveit_visual_tools</depend>
-
+  <depend>graph_msgs</depend>
   <depend>rclcpp</depend>
 
   <test_depend>ament_lint_auto</test_depend>
