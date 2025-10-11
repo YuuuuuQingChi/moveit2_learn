@@ -1,3 +1,10 @@
+# move_group
+## 介绍
+这个是moveit的核心
+
+所有的规划，都依托于它运行
+
+
 # 关节组
 ## 介绍
 我们通常在使用MoveIt时，会定义一个规划组（planning group），比如机械臂的多个关节构成一个组，或者一个机械臂加上一个夹爪构成一个组。
@@ -63,10 +70,27 @@ move()函数。请注意，我们之前设置的位姿目标仍然有效，因�
 指定好你的node，还有PLANNING_GROUP的名字，还有topic，和module
 
 ## deleteAllMarkers
+直接调用就好
+
 使用此函数，可以清除原有的markers
 
 ## loadRemoteControl
+直接调用就好
+
 
 用于连接远程的控制
 这个很重要
 
+## publishText
+
+```C++
+visual_tools.publishText(text_pose, "MoveGroupInterface_Demo", rvt::WHITE, rvt::XLARGE);
+```
+
+第一个是Eigen::Isometry3d text_pose = Eigen::Isometry3d::Identity();类型的
+指定其位置
+
+第二是文本，其余是颜色
+
+## trigger
+不管你pub了什么，要使用trigger一并发出
