@@ -4,6 +4,22 @@
 
 所有的规划，都依托于它运行
 
+给几个常用的
+```C++
+geometry_msgs::msg::Pose target_pose1;
+    target_pose1.orientation.w = 0.0;
+    target_pose1.position.x = 0.28;
+    target_pose1.position.y = -0.4;
+    target_pose1.position.z = 0.8;
+    move_group.setPoseTarget(target_pose1);
+```
+```C++
+    moveit::planninge_interface::MoveGroupInterface::Plan my_plan;
+    auto is_sucess = move_group.plan(my_plan) == moveit::core::MoveITErrorCode::SUCCESS;
+    move.group.execute(my_plan)
+
+```
+
 
 # 关节组
 ## 介绍
